@@ -59,7 +59,7 @@ echo "deb http://${SOURCE}/raspbian/raspbian/ ${VERSION} main non-free contrib r
 echo "deb-src http://${SOURCE}/raspbian/raspbian/ ${VERSION} main non-free contrib rpi" >> /etc/apt/sources.list
 
 echo "deb http://${RPISOURCE}/ ${VERSION} main ui" > /etc/apt/sources.list.d/raspi.list
-echo "deb-src http://${RPISOURCE}/ ${VERSION} main ui" > /etc/apt/sources.list.d/raspi.list
+echo "deb-src http://${RPISOURCE}/ ${VERSION} main ui" >> /etc/apt/sources.list.d/raspi.list
 
 #pip换源
 #mkdir -p ~/.pip
