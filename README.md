@@ -1,1 +1,2 @@
-# RpiInitial
+首先使用OSinstall.sh安装系统到TF卡，
+然后启动系统后使用RpiOSMirrors.sh更改镜像源地址。
